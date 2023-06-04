@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://www.1001freefonts.com/raleway.font");
-
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
 *{
     box-sizing: border-box;
 }
 body{
-    font-family: "Railway", Sans-serif;
+    font-family: "Cairo", Sans-serif;
     margin: 0;
     font-size: 18px;
     background-color: #35181a;
