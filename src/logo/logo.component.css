@@ -1,7 +1,19 @@
+.container {
+    background-color: #35181a;
+    height: 80vh;
+    background: linear-gradient(
+        rgba(35, 16, 17, 1) 0%, /* 53, 24, 26 */
+        rgba(53, 24, 26) 25%, /* 53, 24, 26 */
+        rgba(71, 32, 35) 50%,/* 71, 32, 35 */
+        rgba(88, 40, 43) 75%, /* 71, 32, 35 */
+        rgba(106, 48, 52) 100% /* 88, 40, 43 */
+    );
+    background-color: "primary";
+}
+
 .logo-container {
     display: flex;
     justify-content: center;
-
 }
 
 .logo-line {
@@ -15,6 +27,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 
 .logo-image {

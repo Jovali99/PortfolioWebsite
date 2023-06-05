@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import {LogoComponent} from "../logo/logo.component";
 import {ProjectTemplateComponent} from "../project-template/project-template.component";
 import {ExternalLinksComponent} from "../external-links/external-links.component";
+import {AboutComponent} from "../about/about.component";
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {ExternalLinksComponent} from "../external-links/external-links.component
         HeaderComponent,
         LogoComponent,
         ProjectTemplateComponent,
-        ExternalLinksComponent
+        ExternalLinksComponent,
+        AboutComponent
     ],
     imports: [
         BrowserModule,

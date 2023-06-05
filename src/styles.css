@@ -9,9 +9,15 @@ body{
     margin: 0;
     font-size: 18px;
     background-color: #35181a;
+
+    red-one: #231011;   /* 35, 16, 17 */
+    red-two: #35181a;   /* 53, 24, 26 */
+    red-three: #472023; /* 71, 32, 35 */
+    red-four: #58282b;  /* 88, 40, 43 */
+    red-five: #6a3034;  /* 106, 48, 52 */
 }
 
-a{
+a,p,h1 {
     text-decoration: none;
     color: whitesmoke;
 }

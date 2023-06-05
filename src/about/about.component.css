@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    background-color: #6a3034;
+    height: 1000px;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-areas:
+        ". h1 profile ."
+        ". p profile . ";
+}
+
+.h1-container {
+    background-color: rgba(53,50,52,0.24);
+    grid-area: h1;
+    height: fit-content;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.p-container {
+    background-color: rgba(53,50,52,0.24);
+    grid-area: p;
+    margin-right: 50px;
+    display: flex;
+    height: fit-content;
+    align-items: flex-start;
+}
+.profile-container {
+    display: flex;
+    justify-content: center;
+    grid-area: profile;
+    margin: 15px;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
