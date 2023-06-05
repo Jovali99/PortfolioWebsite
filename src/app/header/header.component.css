@@ -24,10 +24,6 @@ nav ul li a {
     display: inline-block;
 }
 
-a {
-    color: whitesmoke;
-}
-
 a.logo {
     font-weight: bold;
     padding: 1em;

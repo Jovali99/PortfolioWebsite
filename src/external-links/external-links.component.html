@@ -2,10 +2,7 @@
     <div class="site-container">
         <div class="logo-container" *ngFor="let extLink of extLinks">
             <a href="{{extLink[1]}}" class="logo">{{extLink[0]}}</a>
-            <img src="{{extLink[2]}}" class="logo-image">
-            <div class="site-logo-center-container">
-
-            </div>
+            <a href="{{extLink[1]}}"><img src="{{extLink[2]}}" class="logo-image"></a>
         </div>
     </div>
 </div>
