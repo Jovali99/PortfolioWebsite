@@ -1,7 +1,7 @@
 header {
     position: relative;
     background-color: #350f10;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid black;
     box-shadow: 0px 2px 10px black;
 }
 
@@ -9,10 +9,8 @@ header {
     /* Add your CSS styles for the container */
     display: flex;
     margin: 0 auto;
-
     align-items: baseline;
     justify-content: space-between;
-
 }
 
 nav ul {
@@ -23,7 +21,6 @@ nav ul {
 
 nav ul li a {
     padding: 1em;
-
     display: inline-block;
 }
 

@@ -6,15 +6,17 @@ import {testButton} from "./testButtonComponent";
 import { AppRoutingModule } from './app-routing.module';
 import {LogoComponent} from "../logo/logo.component";
 import {ProjectTemplateComponent} from "../project-template/project-template.component";
+import {ExternalLinksComponent} from "../external-links/external-links.component";
 
 
 @NgModule({
-  declarations: [
-      AppComponent,
-      HeaderComponent,
-      LogoComponent,
-      ProjectTemplateComponent
-  ],
+    declarations: [
+        AppComponent,
+        HeaderComponent,
+        LogoComponent,
+        ProjectTemplateComponent,
+        ExternalLinksComponent
+    ],
     imports: [
         BrowserModule,
         AppRoutingModule
